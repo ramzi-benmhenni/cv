@@ -46,6 +46,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
       en: "Academic Background",
       fr: "Formation Académique",
     },
+    navPublications: {
+      en: "Publications",
+      fr: "Publications",
+    },
     expertiseTitle: {
       en: "Areas of Expertise and Skills",
       fr: "Domaines d'Expertise et Compétences",
@@ -143,64 +147,88 @@ document.addEventListener("DOMContentLoaded", (event) => {
       fr: "Projets Notables",
     },
     projectTitle1: {
-      en: "AI-Powered Predictive Maintenance System",
-      fr: "Système de Maintenance Prédictive Basé sur l'IA",
+      en: "MIMOSA Project",
+      fr: "Projet MIMOSA",
     },
     projectDetails1: {
-      en: "Led the development of a machine learning model to predict equipment failures in industrial settings, reducing downtime by 30% and maintenance costs by 25%.",
-      fr: "Dirigé le développement d'un modèle d'apprentissage automatique pour prédire les pannes d'équipement dans des environnements industriels, réduisant les temps d'arrêt de 30% et les coûts de maintenance de 25%.",
+      en: "Participated in the MIMOSA project, a research initiative funded by Agence Nationale de la Recherche from 2017 to 2021. The project focuses on developing new optimization strategies based on mixed integer programming methods to solve difficult L0-norm-based sparse approximation problems in signal processing applications.",
+      fr: "Participation au projet MIMOSA, une initiative de recherche financée par l'Agence Nationale de la Recherche de 2017 à 2021. Le projet se concentre sur le développement de nouvelles stratégies d'optimisation basées sur des méthodes de programmation en nombres entiers mixtes pour résoudre des problèmes difficiles d'approximation parcimonieuse basés sur la norme L0 dans les applications de traitement du signal.",
     },
     projectTask1_1: {
-      en: "Implemented advanced neural network architectures using TensorFlow and Keras",
-      fr: "Implémentation d'architectures de réseaux de neurones avancées utilisant TensorFlow et Keras",
+      en: "Developed MIP-based optimization strategies specific to sparse approximation, improving computational efficiency for high-dimensional problems",
+      fr: "Développement de stratégies d'optimisation basées sur MIP spécifiques à l'approximation parcimonieuse, améliorant l'efficacité computationnelle pour les problèmes de haute dimension",
     },
     projectTask1_2: {
-      en: "Integrated the model with IoT sensors for real-time data processing",
-      fr: "Intégration du modèle avec des capteurs IoT pour le traitement des données en temps réel",
+      en: "Applied methods to real signal processing problems, focusing on sparse deconvolution, sparse unmixing for hyperspectral imaging, and sparse spectral analysis of time series",
+      fr: "Application des méthodes à des problèmes réels de traitement du signal, en se concentrant sur la déconvolution parcimonieuse, le démélange parcimonieux pour l'imagerie hyperspectrale et l'analyse spectrale parcimonieuse des séries temporelles",
     },
     projectTask1_3: {
-      en: "Developed a user-friendly dashboard for maintenance teams using React and D3.js",
-      fr: "Développement d'un tableau de bord convivial pour les équipes de maintenance utilisant React et D3.js",
+      en: "Contributed to the delivery of efficient optimization codes to the scientific community and integrated solutions into off-the-shelf MIP software",
+      fr: "Contribution à la livraison de codes d'optimisation efficaces à la communauté scientifique et intégration de solutions dans des logiciels MIP prêts à l'emploi",
+    },
+    projectLink1_1: {
+      en: "Project Website",
+      fr: "Site Web du Projet",
+    },
+    projectLink1_2: {
+      en: "GitHub Repository",
+      fr: "Dépôt GitHub",
+    },
+    projectLink1_3: {
+      en: "Documentation",
+      fr: "Documentation",
     },
     projectTitle2: {
-      en: "Optimized Supply Chain Management Platform",
-      fr: "Plateforme Optimisée de Gestion de la Chaîne d'Approvisionnement",
+      en: "Confiance.ai Project",
+      fr: "Projet Confiance.ai",
     },
     projectDetails2: {
-      en: "Designed and implemented a combinatorial optimization algorithm to streamline inventory management and distribution logistics, resulting in a 15% reduction in operational costs.",
-      fr: "Conception et implémentation d'un algorithme d'optimisation combinatoire pour rationaliser la gestion des stocks et la logistique de distribution, entraînant une réduction de 15% des coûts opérationnels.",
+      en: "Participated in Confiance.ai, the French technological research programme on trustworthy AI. The project aims to help industrials integrate trustworthy AI in their critical systems by developing an environment with methods and tools that can be integrated into any engineering workshop.",
+      fr: "Participation à Confiance.ai, le programme français de recherche technologique sur l'IA de confiance. Le projet vise à aider les industriels à intégrer l'IA de confiance dans leurs systèmes critiques en développant un environnement avec des méthodes et des outils pouvant être intégrés dans tout atelier d'ingénierie.",
     },
     projectTask2_1: {
-      en: "Developed a custom MIP solver using C++ for large-scale optimization problems",
-      fr: "Développement d'un solveur MIP personnalisé en C++ pour des problèmes d'optimisation à grande échelle",
+      en: "Contributed to lifting barriers associated with the industrialization of AI, focusing on building AI components with controlled levels of trust",
+      fr: "Contribution à la levée des barrières associées à l'industrialisation de l'IA, en se concentrant sur la construction de composants IA avec des niveaux de confiance contrôlés",
     },
     projectTask2_2: {
-      en: "Integrated the solver with existing ERP systems using RESTful APIs",
-      fr: "Intégration du solveur avec les systèmes ERP existants en utilisant des API RESTful",
+      en: "Worked on developing trustworthy learning techniques and interactions generating trust between users and AI-based systems",
+      fr: "Travail sur le développement de techniques d'apprentissage de confiance et d'interactions générant la confiance entre les utilisateurs et les systèmes basés sur l'IA",
     },
     projectTask2_3: {
-      en: "Created a simulation environment to test and validate optimization strategies",
-      fr: "Création d'un environnement de simulation pour tester et valider les stratégies d'optimisation",
+      en: "Helped create a modular and interoperable environment of trust, offering methods and tools for partner engineering workshops",
+      fr: "Aide à la création d'un environnement de confiance modulaire et interopérable, offrant des méthodes et des outils pour les ateliers d'ingénierie partenaires",
+    },
+    projectTask2_4: {
+      en: "Assisted in developing design guides to lead users through each step of creating systems based on trustworthy AI",
+      fr: "Assistance au développement de guides de conception pour guider les utilisateurs à travers chaque étape de la création de systèmes basés sur l'IA de confiance",
+    },
+    projectLink2_1: {
+      en: "Project Website",
+      fr: "Site Web du Projet",
     },
     projectTitle3: {
-      en: "Robust Neural Network for Autonomous Vehicles",
-      fr: "Réseau de Neurones Robuste pour Véhicules Autonomes",
+      en: "RAIMO: Robust AI Models",
+      fr: "RAIMO : Modèles d'IA Robustes",
     },
     projectDetails3: {
-      en: "Developed a novel approach to improve the robustness of neural networks used in autonomous driving systems against adversarial attacks and environmental perturbations.",
-      fr: "Développement d'une nouvelle approche pour améliorer la robustesse des réseaux de neurones utilisés dans les systèmes de conduite autonome contre les attaques adverses et les perturbations environnementales.",
+      en: "Developed novel approaches to improve the robustness of neural networks against adversarial attacks and environmental perturbations. This project aims to enhance the reliability and safety of AI systems in critical applications.",
+      fr: "Développement de nouvelles approches pour améliorer la robustesse des réseaux de neurones contre les attaques adverses et les perturbations environnementales. Ce projet vise à améliorer la fiabilité et la sécurité des systèmes d'IA dans les applications critiques.",
     },
     projectTask3_1: {
-      en: "Implemented adversarial training techniques using PyTorch",
-      fr: "Implémentation de techniques d'entraînement adverses en utilisant PyTorch",
+      en: "Implemented adversarial training techniques using PyTorch and developed new MIP reformulations for training robust neural networks",
+      fr: "Implémentation de techniques d'entraînement adverses en utilisant PyTorch et développement de nouvelles reformulations MIP pour l'entraînement de réseaux de neurones robustes",
     },
     projectTask3_2: {
-      en: "Developed a MIP-based verification method to formally prove network robustness",
-      fr: "Développement d'une méthode de vérification basée sur MIP pour prouver formellement la robustesse du réseau",
+      en: "Developed a MIP-based verification method to formally prove network robustness against L-infinity norm bounded perturbations",
+      fr: "Développement d'une méthode de vérification basée sur MIP pour prouver formellement la robustesse du réseau contre les perturbations bornées par la norme L-infini",
     },
     projectTask3_3: {
-      en: "Conducted extensive testing in simulated and real-world environments",
-      fr: "Réalisation de tests approfondis dans des environnements simulés et réels",
+      en: "Conducted extensive testing on various datasets, including MNIST and CIFAR-10, to validate the robustness improvements",
+      fr: "Réalisation de tests approfondis sur divers jeux de données, notamment MNIST et CIFAR-10, pour valider les améliorations de robustesse",
+    },
+    projectTask3_4: {
+      en: "Collaborated with academic and industry partners to apply the developed techniques to real-world scenarios",
+      fr: "Collaboration avec des partenaires académiques et industriels pour appliquer les techniques développées à des scénarios réels",
     },
     educationTitle: {
       en: "Academic Background",
@@ -241,6 +269,30 @@ document.addEventListener("DOMContentLoaded", (event) => {
     footerText: {
       en: "© 2023 Ramzi BEN MHENNI. All rights reserved.",
       fr: "© 2023 Ramzi BEN MHENNI. Tous droits réservés.",
+    },
+    publicationsTitle: {
+      en: "Publications",
+      fr: "Publications",
+    },
+    thesisTitle: {
+      en: "Thesis",
+      fr: "Thèse",
+    },
+    journalArticleTitle: {
+      en: "Journal Article (Submitted)",
+      fr: "Article de journal (soumis)",
+    },
+    conferenceTitle: {
+      en: "Conference Proceedings with Peer Review",
+      fr: "Actes de conférences avec comité de lecture",
+    },
+    internationalPresentationsTitle: {
+      en: "Presentations at International Conferences",
+      fr: "Présentations dans des conférences internationales",
+    },
+    nationalPresentationsTitle: {
+      en: "Presentations at National Conferences",
+      fr: "Présentations dans des conférences nationales",
     },
   };
 
